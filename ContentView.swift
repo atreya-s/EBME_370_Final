@@ -1,5 +1,6 @@
 import SwiftUI
 
+
 struct ContentView: View {
     @State private var username = ""
     @State private var password = ""
@@ -8,7 +9,7 @@ struct ContentView: View {
     @State private var showingLoginScreen = false
 
     var body: some View {
-        NavigationView {  // Wrap everything in NavigationView for navigation to work
+        NavigationView {
             ZStack {
                 Color.black
                     .ignoresSafeArea()
@@ -46,6 +47,7 @@ struct ContentView: View {
                     }
                     .padding()
 
+                    // NavigationLink to HomeScreen
                     NavigationLink(destination: HomeScreen(), isActive: $showingLoginScreen) {
                         EmptyView()
                     }
@@ -54,25 +56,27 @@ struct ContentView: View {
             }
         }
     }
-
+    
+    // Mock authentication function
     func authenticateUser(username: String, password: String) {
-        // Add authentication logic here
-        // On successful authentication, set showingLoginScreen to true
-        if username == "testUser" && password == "1234" {  // Example check
+        // Add your real authentication logic here
+        if username == "testUser" && password == "1234" {  // Example condition
             showingLoginScreen = true
         } else {
-            // Handle invalid credentials (for example, show error message)
+            wrongUsername = 2
+            wrongPassword = 2
         }
     }
 }
 
+// HomeScreen (Post Login)
 struct HomeScreen: View {
-    @Environment(\.presentationMode) var presentationMode  // For handling back button
+    @Environment(\.presentationMode) var presentationMode  // For back button
 
     var body: some View {
         VStack {
-            // Back Button to return to ContentView (Login Screen)
             HStack {
+                // Back Button to return to ContentView (Login Screen)
                 Button(action: {
                     presentationMode.wrappedValue.dismiss()  // Dismiss HomeScreen
                 }) {
@@ -83,14 +87,48 @@ struct HomeScreen: View {
                 }
                 Spacer()
             }
+            Spacer()
 
-            // Home screen content here (e.g., pill reminder info)
-            Text("Home Screen")
-                .font(.largeTitle)
-                .foregroundColor(.white)
-            
+            // Welcome and Pill Reminder Interface
+            VStack(alignment: .leading) {
+                Text("Good Morning")
+                    .font(.title2)
+                    .foregroundColor(.white)
+                Text("Gracy")  // Replace with dynamic username if needed
+                    .font(.largeTitle)
+                    .foregroundColor(.white)
+                Spacer().frame(height: 20)
+                
+                // Pill Reminder Example
+                HStack {
+                    Text("8:00 AM")
+                        .font(.headline)
+                        .foregroundColor(.teal)
+                    Spacer()
+                    VStack(alignment: .leading) {
+                        Text("Acetaminophen")
+                            .font(.headline)
+                            .foregroundColor(.white)
+                        Text("1 Pill  Before Food")
+                            .font(.subheadline)
+                            .foregroundColor(.gray)
+                    }
+                    Spacer()
+                }
+                .padding()
+                .background(Color.gray.opacity(0.2))
+                .cornerRadius(10)
+
+                Spacer()
+            }
+            .padding()
+
             Spacer()
         }
         .background(Color.black.ignoresSafeArea())
     }
+}
+
+#Preview {
+    ContentView()
 }
