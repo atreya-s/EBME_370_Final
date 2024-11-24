@@ -1,10 +1,15 @@
 import SwiftUI
 
+import SwiftUI
+
 @main
-struct Pill_ReminderApp: App {
+struct PatientLoginApp: App {
+    @StateObject private var dataController = PatientDataController()
+
     var body: some Scene {
         WindowGroup {
-            ContentView()  // Your starting view
+            ContentView()
+                .environment(\.managedObjectContext, dataController.container.viewContext)  // Pass Core Data context
         }
     }
 }
