@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		350224CF2CFBDD8F008A9AEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 350224B62CFBDD8E008A9AEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 350224BD2CFBDD8E008A9AEE;
+			remoteInfo = Pill_Reminder;
+		};
+		350224D92CFBDD8F008A9AEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 350224B62CFBDD8E008A9AEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 350224BD2CFBDD8E008A9AEE;
+			remoteInfo = Pill_Reminder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		350224BE2CFBDD8E008A9AEE /* Pill_Reminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pill_Reminder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		350224CE2CFBDD8F008A9AEE /* Pill_ReminderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Pill_ReminderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		350224D82CFBDD8F008A9AEE /* Pill_ReminderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Pill_ReminderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		350224C02CFBDD8E008A9AEE /* Pill_Reminder */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Pill_Reminder;
+			sourceTree = "<group>";
+		};
+		350224D12CFBDD8F008A9AEE /* Pill_ReminderTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Pill_ReminderTests;
+			sourceTree = "<group>";
+		};
+		350224DB2CFBDD8F008A9AEE /* Pill_ReminderUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Pill_ReminderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		350224BB2CFBDD8E008A9AEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		350224CB2CFBDD8F008A9AEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		350224D52CFBDD8F008A9AEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		350224B52CFBDD8E008A9AEE = {
+			isa = PBXGroup;
+			children = (
+				350224C02CFBDD8E008A9AEE /* Pill_Reminder */,
+				350224D12CFBDD8F008A9AEE /* Pill_ReminderTests */,
+				350224DB2CFBDD8F008A9AEE /* Pill_ReminderUITests */,
+				350224BF2CFBDD8E008A9AEE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		350224BF2CFBDD8E008A9AEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				350224BE2CFBDD8E008A9AEE /* Pill_Reminder.app */,
+				350224CE2CFBDD8F008A9AEE /* Pill_ReminderTests.xctest */,
+				350224D82CFBDD8F008A9AEE /* Pill_ReminderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		350224BD2CFBDD8E008A9AEE /* Pill_Reminder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 350224E22CFBDD8F008A9AEE /* Build configuration list for PBXNativeTarget "Pill_Reminder" */;
+			buildPhases = (
+				350224BA2CFBDD8E008A9AEE /* Sources */,
+				350224BB2CFBDD8E008A9AEE /* Frameworks */,
+				350224BC2CFBDD8E008A9AEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				350224C02CFBDD8E008A9AEE /* Pill_Reminder */,
+			);
+			name = Pill_Reminder;
+			packageProductDependencies = (
+			);
+			productName = Pill_Reminder;
+			productReference = 350224BE2CFBDD8E008A9AEE /* Pill_Reminder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		350224CD2CFBDD8F008A9AEE /* Pill_ReminderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 350224E52CFBDD8F008A9AEE /* Build configuration list for PBXNativeTarget "Pill_ReminderTests" */;
+			buildPhases = (
+				350224CA2CFBDD8F008A9AEE /* Sources */,
+				350224CB2CFBDD8F008A9AEE /* Frameworks */,
+				350224CC2CFBDD8F008A9AEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				350224D02CFBDD8F008A9AEE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				350224D12CFBDD8F008A9AEE /* Pill_ReminderTests */,
+			);
+			name = Pill_ReminderTests;
+			packageProductDependencies = (
+			);
+			productName = Pill_ReminderTests;
+			productReference = 350224CE2CFBDD8F008A9AEE /* Pill_ReminderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		350224D72CFBDD8F008A9AEE /* Pill_ReminderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 350224E82CFBDD8F008A9AEE /* Build configuration list for PBXNativeTarget "Pill_ReminderUITests" */;
+			buildPhases = (
+				350224D42CFBDD8F008A9AEE /* Sources */,
+				350224D52CFBDD8F008A9AEE /* Frameworks */,
+				350224D62CFBDD8F008A9AEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				350224DA2CFBDD8F008A9AEE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				350224DB2CFBDD8F008A9AEE /* Pill_ReminderUITests */,
+			);
+			name = Pill_ReminderUITests;
+			packageProductDependencies = (
+			);
+			productName = Pill_ReminderUITests;
+			productReference = 350224D82CFBDD8F008A9AEE /* Pill_ReminderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		350224B62CFBDD8E008A9AEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					350224BD2CFBDD8E008A9AEE = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					350224CD2CFBDD8F008A9AEE = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 350224BD2CFBDD8E008A9AEE;
+					};
+					350224D72CFBDD8F008A9AEE = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 350224BD2CFBDD8E008A9AEE;
+					};
+				};
+			};
+			buildConfigurationList = 350224B92CFBDD8E008A9AEE /* Build configuration list for PBXProject "Pill_Reminder" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 350224B52CFBDD8E008A9AEE;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 350224BF2CFBDD8E008A9AEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				350224BD2CFBDD8E008A9AEE /* Pill_Reminder */,
+				350224CD2CFBDD8F008A9AEE /* Pill_ReminderTests */,
+				350224D72CFBDD8F008A9AEE /* Pill_ReminderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		350224BC2CFBDD8E008A9AEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		350224CC2CFBDD8F008A9AEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		350224D62CFBDD8F008A9AEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		350224BA2CFBDD8E008A9AEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		350224CA2CFBDD8F008A9AEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		350224D42CFBDD8F008A9AEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		350224D02CFBDD8F008A9AEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 350224BD2CFBDD8E008A9AEE /* Pill_Reminder */;
+			targetProxy = 350224CF2CFBDD8F008A9AEE /* PBXContainerItemProxy */;
+		};
+		350224DA2CFBDD8F008A9AEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 350224BD2CFBDD8E008A9AEE /* Pill_Reminder */;
+			targetProxy = 350224D92CFBDD8F008A9AEE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		350224E02CFBDD8F008A9AEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		350224E12CFBDD8F008A9AEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		350224E32CFBDD8F008A9AEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pill_Reminder/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SeniorProject.Pill-Reminder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		350224E42CFBDD8F008A9AEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pill_Reminder/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SeniorProject.Pill-Reminder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		350224E62CFBDD8F008A9AEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SeniorProject.Pill-ReminderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pill_Reminder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Pill_Reminder";
+			};
+			name = Debug;
+		};
+		350224E72CFBDD8F008A9AEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SeniorProject.Pill-ReminderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pill_Reminder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Pill_Reminder";
+			};
+			name = Release;
+		};
+		350224E92CFBDD8F008A9AEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SeniorProject.Pill-ReminderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Pill_Reminder;
+			};
+			name = Debug;
+		};
+		350224EA2CFBDD8F008A9AEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SeniorProject.Pill-ReminderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Pill_Reminder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		350224B92CFBDD8E008A9AEE /* Build configuration list for PBXProject "Pill_Reminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				350224E02CFBDD8F008A9AEE /* Debug */,
+				350224E12CFBDD8F008A9AEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		350224E22CFBDD8F008A9AEE /* Build configuration list for PBXNativeTarget "Pill_Reminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				350224E32CFBDD8F008A9AEE /* Debug */,
+				350224E42CFBDD8F008A9AEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		350224E52CFBDD8F008A9AEE /* Build configuration list for PBXNativeTarget "Pill_ReminderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				350224E62CFBDD8F008A9AEE /* Debug */,
+				350224E72CFBDD8F008A9AEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		350224E82CFBDD8F008A9AEE /* Build configuration list for PBXNativeTarget "Pill_ReminderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				350224E92CFBDD8F008A9AEE /* Debug */,
+				350224EA2CFBDD8F008A9AEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 350224B62CFBDD8E008A9AEE /* Project object */;
+}
